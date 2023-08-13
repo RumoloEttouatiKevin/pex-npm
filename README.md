@@ -7,12 +7,12 @@
 ## Initialisation d'un nouveau projet
 
 - `npm init`
-  - Saisir les informations demandé
+  - Saisir les informations demandées
     - ? (git repository) est l'url ssh du repo (ex : **[git@github.com:RumoloEttouatiKevin/pex-npm.git](https://github.com/RumoloEttouatiKevin/pex-npm)**)
     - ? (author) son identité (j'utilise celle de github -> **Rumolo-Ettouati Kévin**)
     - ? (license) [code de la licence](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) choisi (j'utilise généralement -> **MIT**)
 
-Un dossier **node_modules** vient à être créé à la racine du projet, celui-ci contiendra tous les paquets/dépendance installé. Il faut penser à l'ignorer si l'on souhaite poussé le projet sur un repo distant type **GitHub**.
+Un dossier **node_modules** vient d'être créé à la racine du projet, celui-ci contiendra tous les paquets/dépendances installées. Il faut penser à l'ignorer si l'on souhaite pousser le projet sur un repo distant type **GitHub**.
 
 ## Ajouter un package JS
 
@@ -25,9 +25,9 @@ Exemple :
 
 ## Installation d'un projet en local
 
-La quasi totalité des projets ne fournissent pas le dossier **node_modules** pour éviter de les alourdir inutilement, une fois le projet en local, il faut donc installer les paquets pour que celui-ci soit fonctionnel.
+La quasi-totalité des projets ne fournit pas le dossier **node_modules** pour éviter de les alourdir inutilement, une fois le projet en local, il faut donc installer les paquets pour que celui-ci soit fonctionnel.
 
-!! Les informations des paquets installé dans un projet et leurs versions sont dans le fichier **package-lock.json**, c'est avec celui-ci que npm pourra installer le projet en local.
+!! Les informations des paquets installés dans un projet et leurs versions sont dans le fichier **package-lock.json**, c'est avec celui-ci que npm pourra installer le projet en local.
 
 - `npm install`
 
@@ -47,7 +47,7 @@ Ceci peut être l'occasion de tester un paquet sans forcément l'associer au pro
 
 ## Mise à jour des packages
 
-- Pour savoir si il y a des mise à jour disponible pour les packages du projet.
+- Pour savoir s'il y a des mises à jour disponible pour les packages du projet.
   - `npm outdated`
 - Pour mettre à jour les packages du projet.
   - `npm update`
