@@ -62,6 +62,13 @@ Exemple avec Vue CLI :
 - Pour mettre à jour les packages du projet.
   - `npm update`
 
+## Mise à jour des packages globaux de la machine
+
+- Pour mettre à jour tous les packages globaux.
+  - `npm update -g`
+- Pour mettre à jour un seul package globale.
+  - `npm update -g @vue/cli`
+
 ## Exécuter un script d'un package ou du projet
 
 - `npm run test` **test** étant le nom du script à exécuter.
