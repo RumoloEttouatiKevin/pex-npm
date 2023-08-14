@@ -37,6 +37,16 @@ Ceci peut être l'occasion de tester un paquet sans forcément l'associer au pro
 
 - `npm install bootstrap@5.3.1 --no-save`
 
+## Ajout d'un package au niveau global de la machine
+
+Certains paquets sont utilisables de manière générale sur le poste de travail et cela permet d'y avoir accès depuis n'importe quel projet.
+
+Exemple avec Vue CLI :
+
+- `npm install -g @vue/cli`
+
+!! Ajouter `sudo` devant la commande s'il y a des erreurs de permissions d'accès en écriture.
+
 ## Lister les packages du projet
 
 - `npm list`
